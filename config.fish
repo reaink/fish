@@ -1,6 +1,8 @@
-set -x LANG en_US.UTF-8
-set -x EDITOR hx
+
+source $__fish_config_dir/environment.fish
+source "$HOME/.cargo/env.fish"
 
 
 alias lg="lazygit"
 alias ls="li"
+alias nv="nvim"
